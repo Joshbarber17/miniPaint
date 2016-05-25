@@ -1,13 +1,14 @@
 $(document).ready(function(){
   var color = 'white';
+  var colors = 'white green red blue yellow'
   $('.box').on('click', function(){
-    $(this).addClass('white');
+    $(this).addClass(color);
   });
   $('.box').on('dblclick', function(){
-    $(this).removeClass('white');
+    $(this).removeClass(colors);
   });
   $('#reset').on('click', function(){
-    $('.box').removeClass('white');
+    $('.box').removeClass(colors);
   });
   $('#red').on('click', function(){
     color = 'red';
