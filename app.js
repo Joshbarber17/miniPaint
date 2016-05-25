@@ -1,0 +1,1 @@
+angular.module('mini-paint', []);
